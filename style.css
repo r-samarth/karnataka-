@@ -136,3 +136,41 @@ footer a {
 section {
     padding: 60px 0;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+.card {
+    border-radius: 12px;
+    overflow: hidden;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-img-top {
+    transition: transform 0.4s ease;
+}
+
+.card:hover .card-img-top {
+    transform: scale(1.05);
+}
+
+.btn-karnataka {
+    border-radius: 30px;
+    padding: 10px 30px;
+    transition: all 0.3s ease;
+}
+
+.btn-karnataka:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(246, 196, 0, 0.4);
+}
+
+.navbar-brand:hover {
+    text-shadow: 0 0 10px rgba(246, 196, 0, 0.5);
+}
